@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/login_bg.png"); /* whole background image */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    filter: blur(3px);
+    z-index: -2;
+}
+
+.fix-rounded-right {
+    border-top-right-radius: .2rem !important;
+    border-bottom-right-radius: .2rem !important;
+}
+
+
+.btn-cust-citrus {
+    background-color: #d7b90e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cust-citrus:hover {
+    background-color: #f3d83d;
+    color: white;
+}
+.mt-3 {
+    margin-top: 0rem !important; 
+}
+
+.mt-5 {
+    margin-top: 2rem !important;
+}
+
+.link-button {
+    background: none;
+    border: none;
+    color: #007bff; /* Adjust to preferred color */
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: inherit; /* Inherit font size from parent */
+    padding-left: 155px;
+    display: block; /* Change to block element */
+    margin-top: 1rem; /* Space above the link */
+}
+
+.link-button:hover {
+    color: #0056b3; /* Darker shade for hover effect */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Center the link */
+.text-center .link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; /* Space above the link */
+}
